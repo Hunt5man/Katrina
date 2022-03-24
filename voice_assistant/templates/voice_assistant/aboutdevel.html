@@ -1,0 +1,41 @@
+{% extends 'voice_assistant/base.html' %}
+
+{% block head %}
+{% endblock head %}
+
+{% block content %}
+    <a href='{% url "main" %}'>
+        <svg class="arrow" viewbox="0 0 60 100">
+            <path d="M 50,0 L 60,10 L 20,50 L 60,90 L 50,100 L 0,50 Z"/>
+        </svg>
+    </a>
+    <div class="aboutdevel">
+        <div class="info">
+            <img src="../static/voice_assistant/images/me.jpg" class="avatar">
+            <div class="info-text">
+                <h2 class="hh">Николай Ковтун</h2></p>
+                <h4>Само<s>хую</s>учка. Только-только начинаю осваивать всё, поэтому такое говно :D</h4>
+                <h3 class="hh">Мои профили</h3>
+                <a href="https://vk.com/hunt5man" target="_blank" id="vk">
+                <img src="../static/voice_assistant/images/vk.png" class="vk_im"> ВКонтакте</a>
+                |
+                <a href="https://github.com/Hunt5man" target="_blank" id="git">
+                <img src="../static/voice_assistant/images/git.png" class="git_im"> Github</a>
+                |
+                <a href="https://qna.habr.com/user/Hunt5man" target="_blank" id="habr"> Хабр Q&A</a>
+                <h3 class="hh">Мой опыт в программировании</h3></p>
+                <div id="time-elapsed"></div>
+            </div>
+        </div>
+        <div class="info-text-under">
+                <p><h4>
+                В данном случае совершенно бесполезно что-либо описывать про
+                разработчика (меня), так как и голосовой помощник «Катрина»
+                и этот сайт, созданы сугубо для учебных целей: голосовой
+                помощник – для практики в языке программирования Python,
+                а сайт – для освоения азов Django, HTML, CSS, JS.
+                </h4></p>
+        </div>
+    </div>
+    <script src="../static/voice_assistant/js/script.js"></script>
+{% endblock %}

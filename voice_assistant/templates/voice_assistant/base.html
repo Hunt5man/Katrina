@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ title }}</title>
+        <link type="image/x-icon" rel="shortcut icon" href="../static/voice_assistant/images/favicon.ico" >
+        <link type="text/css" rel="stylesheet" href="/static/voice_assistant/css/main.css" />
+        {% block head %}
+        {% endblock head %}
+    </head>
+    <body>
+        {% block content %}
+            <div class="mainBlock">
+                <a href='{% url "aboutapp" %}' class="button">О приложении</a>
+                <a href='{% url "aboutsite" %}' class="button">О сайте</a>
+                <a href='{% url "aboutdevel" %}' class="button">О разработчике</a>
+                <a href='https://github.com/Hunt5man/Voice_assistant' target="_blank" class="button">Скачать « Катрина »</a>
+            </div>
+        {% endblock %}
+    </body>
+</html>

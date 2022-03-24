@@ -1,0 +1,183 @@
+body {
+    height: 98vh;
+    background-image: url('../images/fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainBlock {
+    position: fixed;
+    margin-top: 75px;
+}
+
+.button {
+    color: #1fcfe6;
+    background: linear-gradient(to right, #1fcfe620, transparent);
+    display: table;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: -10px;
+    margin-bottom: 5px;
+    padding: 50px 50px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Times New Roman;
+    width: 500px;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #1fcfe650, transparent);
+}
+
+.button:active {
+    color: #00729b;
+}
+
+.arrow {
+    margin: 13px 30px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: radial-gradient(#1fcfe6, #00101f);
+}
+
+.arrow path {
+    fill: #000d1d;
+    stroke-width: 1;
+    stroke: #1fcfe6;
+    transition: fill 0.5s ease-out;
+}
+
+.arrow:hover path {
+    fill: #1fcfe6;
+}
+
+.arrow:active path{
+    fill: #337AB7;
+}
+
+.aboutapp {
+    position: fixed;
+    color: #1fcfe6;
+    width: 750px;
+    background: linear-gradient(to right, #1fcfe620, transparent);
+    display: table;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Times New Roman;
+    text-indent: 25px;
+}
+
+.aboutdevel {
+    position: fixed;
+    color: #1fcfe6;
+    width: 750px;
+    background: linear-gradient(to right, #1fcfe620, transparent);
+    display: table;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+    padding: 50px 50px 20px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Times New Roman;
+}
+
+.avatar {
+    height: 350px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px #02172a;
+}
+
+.hh {
+    color: #91effb;
+}
+
+.info {
+    display: flex;
+    justify-content: left;
+    line-height: 20px;
+}
+
+.info-text {
+    margin-top: -1px;
+    margin-left: 50px;
+}
+
+.info-text-under {
+    text-indent: 25px;
+    margin-top: 30px;
+}
+
+#time-elapsed {
+    font-weight: 600;
+}
+
+#vk {
+    color: #0077ff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#git {
+    color: #c4d3d7;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#habr {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#vk:hover, #git:hover, #habr:hover {
+    text-decoration: underline;
+}
+
+#vk:active {
+    color: #0077ff90;
+}
+
+#git:active {
+    color: #c4d3d790;
+}
+
+#habr:active {
+    color: #ffffff90;
+}
+
+.vk_im {
+    height: 16px;
+}
+
+.git_im {
+    width: 17px;
+    margin-left: 3px;
+    margin-right: -1px;
+}
+
+.aboutsite {
+    position: fixed;
+    color: #1fcfe6;
+    width: 750px;
+    background: linear-gradient(to right, #1fcfe620, transparent);
+    display: table;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Times New Roman;
+    text-indent: 25px;
+}
